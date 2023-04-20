@@ -1,0 +1,43 @@
+.card_runtime{
+    font-size: 0.75rem;
+    margin-bottom: 0.25;
+}
+.card_rating{
+    float: right;
+}
+
+.card_discription{
+    font-style: italic;
+    font-size: 0.75rem;
+    margin-bottom: 0.25;
+}
+.cards:hover{
+    transform: scale(1.2);
+    z-index:1000;
+    box-shadow: rgba(0,0,0,0.25 ) 0px 54px 55px, rgba(0,0,0,0.12 ) 0px -12px 30px ;
+}
+
+.cards_img{
+    height: 300px;
+}
+
+.cards_overplay{
+    position: absolute;
+    padding: 0 1rem 1rem 1rem;
+    bottom: 0px;
+    height: 200px;
+    display: flex;
+}
+
+.cards{
+    display: inline-block;
+    transition: transform .2s;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.19rem;
+    cursor: pointer;
+    min-width: 200px;
+    z-index: 0;
+    border: 1px solid rgb(99,99,99);
+}
